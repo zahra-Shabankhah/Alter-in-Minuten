@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="berechne dein "
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alter"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/teal_700"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Minuten"
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btnDataPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datum Auswählen"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"/>
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Ausgewältes Datum"
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/tvSelectedDateMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="In Minuten"
+        android:textColor="@color/teal_700"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
